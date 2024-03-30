@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import api from "./api/Post";
-import DataContext from "./context/DataContext";
+import api from "../api/Post";
+import DataContext from "../context/DataContext";
 
 const PostPage = () => {
   const { posts, setPosts } = useContext(DataContext);

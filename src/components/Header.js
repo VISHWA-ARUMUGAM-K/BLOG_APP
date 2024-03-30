@@ -1,5 +1,5 @@
 import { FaLaptop, FaTabletAlt, FaMobileAlt } from "react-icons/fa";
-import useWindowSize from "./Hooks/useWindowSize";
+import useWindowSize from "../Hooks/useWindowSize";
 
 const Header = ({ title }) => {
   const { width } = useWindowSize();

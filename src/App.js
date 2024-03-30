@@ -1,10 +1,10 @@
 import Layout from "./Layout";
-import Home from "./Home";
-import NewPost from "./NewPost";
-import PostPage from "./PostPage";
-import EditPost from "./EditPost";
-import About from "./About";
-import Missing from "./Missing";
+import Home from "./pages/Home";
+import NewPost from "./pages/NewPost";
+import PostPage from "./pages/PostPage";
+import EditPost from "./pages/EditPost";
+import About from "./pages/About";
+import Missing from "./pages/Missing";
 import { Route, Routes, useNavigate } from "react-router-dom";
 
 function App() {

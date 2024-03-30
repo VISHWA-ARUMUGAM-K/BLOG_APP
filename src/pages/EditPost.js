@@ -1,8 +1,8 @@
 import { useState, useEffect, useContext } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import React from "react";
-import DataContext from "./context/DataContext";
-import api from "./api/Post";
+import DataContext from "../context/DataContext";
+import api from "../api/Post";
 import { format } from "date-fns";
 
 const EditPost = () => {

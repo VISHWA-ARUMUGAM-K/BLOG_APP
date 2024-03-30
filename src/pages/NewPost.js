@@ -1,8 +1,8 @@
 import { useState, useContext } from "react";
-import DataContext from "./context/DataContext";
+import DataContext from "../context/DataContext";
 import { format } from "date-fns";
 import { useNavigate } from "react-router-dom";
-import api from "./api/Post";
+import api from "../api/Post";
 
 const NewPost = () => {
   const [postTitle, setPostTitle] = useState("");
